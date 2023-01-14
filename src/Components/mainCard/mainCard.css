@@ -1,0 +1,19 @@
+p {
+    border: 1px solid rgb(245, 244, 244);
+    padding: 10px;
+    margin:10px auto;
+}
+.task-container{
+    justify-content: space-between;
+    display:flex;
+}
+.delete-icon:hover , .delete-section-icon:hover{
+    cursor: pointer;
+}
+.delete-section-icon {
+    display: flex;
+    justify-content: end;
+    font-size: larger;
+    margin-bottom: 10px;
+
+}
